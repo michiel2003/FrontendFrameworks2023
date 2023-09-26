@@ -1,28 +1,20 @@
 import {FunctionComponent} from "react";
-import {Header} from "./Header.tsx";
+import {MultiplicationTable} from "./MultiplicationTable.tsx";
 
 interface ExerciseOne{
-    numbertable:number
+
 }
 
-const translate: Record<number, string> = {
-    1: 'One',
-    2: 'Two',
-    3: 'Three',
-    4: 'Four',
-    5: 'Five',
-    6: 'Six',
-    7: 'Seven',
-    8: 'Eight',
-    9: 'Nine',
-}
 
-export const ExerciseOne: FunctionComponent<ExerciseOne> = (props) =>{
-
-    const {numbertable} = props
+export const ExerciseOne: FunctionComponent<ExerciseOne> = () =>{
 
 
     return (
-        <><Header numberString={translate[numbertable]}/></>
+        <div className={'exercise'}>
+            <div><MultiplicationTable table={3}/></div>
+            <div><MultiplicationTable table={4}/></div>
+            <div><MultiplicationTable table={9}/></div>
+            <div><MultiplicationTable table={6}/></div>
+        </div>
     );
 }

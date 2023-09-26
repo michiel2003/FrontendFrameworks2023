@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28f8c306-18a3-4a6f-940d-dd5876429a19" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/Row.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/Excercise.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/Excercise.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/ExerciseOne.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/ExerciseOne.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/HelloWolrd.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/main.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +33,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ReactCreateComponentLastSelected": "functionDeclarationComponent",
+    "ReactCreateComponentLastSelected": "arrowFunctionComponent",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -45,7 +44,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui",
     "ts.external.directory.path": "H:\\2023 2024\\Front end frameworks\\FrontendFrameworks2023\\Oefeningen\\Les 1\\Components\\Componenten\\node_modules\\typescript\\lib",
     "vue.rearranger.settings.migration": "true"
   }
@@ -70,6 +69,7 @@
       <workItem from="1695742497589" duration="203000" />
       <workItem from="1695742714179" duration="12000" />
       <workItem from="1695742736047" duration="1580000" />
+      <workItem from="1695744499755" duration="2040000" />
     </task>
     <servers />
   </component>

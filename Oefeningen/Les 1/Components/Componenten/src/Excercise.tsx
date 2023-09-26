@@ -22,7 +22,7 @@ const Title = styled.div`
 
 export const Excercise: FunctionComponent<Excercise> = (props) => {
 
-    const {title, background} = props
+    const {children, title, background} = props
 
     const styling: CSSProperties = {
         boxShadow: '7px 2px 8px 1px rgba(18,89,46,0.67)',
@@ -36,6 +36,7 @@ export const Excercise: FunctionComponent<Excercise> = (props) => {
         <>
             <div style={styling}>
                 <Title>{title}</Title>
+                {children}
             </div>
         </>
     )
