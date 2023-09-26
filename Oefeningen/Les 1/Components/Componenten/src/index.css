@@ -1,0 +1,31 @@
+/* Opmaak voor de component Header */
+.header {
+    font-size: 50px;
+    color: #e65100;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: #ff9800;
+}
+
+/* Opmaak voor de component Row */
+.row {
+    font-size: 20px;
+    color: #455a64;
+}
+
+/* Opmaak voor de component MultiplicationTable */
+.table {
+    font-family: "Comic Sans MS", serif;
+    text-align: center;
+    width: 200px;
+    padding: 0;
+    border-radius: 20px;
+    background-color: #ffe0b2;
+    filter: drop-shadow(0px 0px 5px #666);
+    margin: 2em;
+}
+
+/* Opmaak voor de component ExerciseOne */
+.exercise {
+    display: flex;
+}

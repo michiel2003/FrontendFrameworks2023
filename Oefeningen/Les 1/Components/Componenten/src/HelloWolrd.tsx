@@ -1,5 +1,0 @@
-export function HelloWolrd() {
-    return (
-        <></>
-    );
-}

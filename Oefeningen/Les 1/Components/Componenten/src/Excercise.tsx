@@ -1,8 +1,8 @@
-import {CSSProperties, FunctionComponent} from 'react';
+import {CSSProperties, FunctionComponent, PropsWithChildren} from 'react';
 import styled from "styled-components";
 
 
-interface Excercise{
+interface Excercise extends PropsWithChildren{
     title: string
     background?: string
 }

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28f8c306-18a3-4a6f-940d-dd5876429a19" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/Excercise.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/Excercise.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/ExerciseOne.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/ExerciseOne.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/HelloWolrd.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Oefeningen/Les 1/Components/Componenten/src/main.tsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2VwM4HDXetR82oGfVZX5PEUN8Jv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ReactCreateComponentLastSelected": "functionDeclarationComponent",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "H:/2023 2024/Front end frameworks/FrontendFrameworks2023",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "H:\\2023 2024\\Front end frameworks\\FrontendFrameworks2023\\Oefeningen\\Les 1\\Components\\Componenten\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.rcb.reactComponents" value="false" />
+        <entry key="com.haulmont.rcb.reactInspector" value="false" />
+        <entry key="com.haulmont.rcb.storybook" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28f8c306-18a3-4a6f-940d-dd5876429a19" name="Changes" comment="" />
+      <created>1695742496188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695742496188</updated>
+      <workItem from="1695742497589" duration="203000" />
+      <workItem from="1695742714179" duration="12000" />
+      <workItem from="1695742736047" duration="1580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="javascript:npm:styled-components" />
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="javascript:npm:vite" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
+</project>
