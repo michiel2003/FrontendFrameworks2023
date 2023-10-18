@@ -34,12 +34,13 @@ interface CommentSectionProps {
     firstName: string
     lastName: string
     content: string
-    isLarge: boolean
+    isOpen: boolean
+    setIsOpen: () => void
 }
 
-const CommentSection: FunctionComponent<CommentSectionProps> = ({firstName, lastName, content, isLarge}) => {
-    if (!isLarge) {
-        content = content.substring(0, 50)
+const CommentSection: FunctionComponent<CommentSectionProps> = ({firstName, lastName, content, isOpen, setIsOpen}) => {
+    if(!isOpen){
+        content = `${content.slice(0, 30)}...`
     }
     return (
         <SectionContainer>
@@ -47,7 +48,8 @@ const CommentSection: FunctionComponent<CommentSectionProps> = ({firstName, last
                 {firstName} {lastName}
             </Author>
             <CommentContent>
-                {content}
+                {content}<br/>
+                <p onClick={setIsOpen}>Read{isOpen ? " Less" : " More"}</p>
             </CommentContent>
         </SectionContainer>
     )

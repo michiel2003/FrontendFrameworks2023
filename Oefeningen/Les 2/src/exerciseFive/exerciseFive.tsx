@@ -18,14 +18,23 @@ const comment2: IComment = {
     content: 'Reprehenderit sunt enim dolore cillum. Proident Lorem commodo ea duis tempor ipsum dolore in magna aliquip reprehenderit esse. Consequat do fugiat veniam esse anim ullamco eu pariatur laboris ullamco velit excepteur ipsum. Ea consectetur quis anim fugiat fugiat veniam Lorem exercitation Lorem aliqua do.',
 }
 
+
 const ExerciseFive: FunctionComponent = () => {
-    
+    const [isOpen, setIsOpen] = useState<string | undefined>(undefined)
+    const openCloseHandler = (id:string|undefined) => {
+        if(isOpen === id){
+            setIsOpen(undefined)
+        }
+        else{
+            setIsOpen(id)
+        }
+    }
 
     return (
         <>
-            <CommentCard {...comment1}/>
+            <CommentCard setIsOpen={() => openCloseHandler(comment1.id)} isOpen={isOpen === comment1.id} {...comment1}/>
             <hr/>
-            <CommentCard {...comment2}/>
+            <CommentCard setIsOpen={() => openCloseHandler(comment2.id)} isOpen={isOpen === comment2.id} {...comment2}/>
         </>
     )
 }

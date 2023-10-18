@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 interface TabPanelContainerProps {
     $isActive: boolean
+    id: number
 }
 
 const TabPanelContentContainer = styled.div<TabPanelContainerProps>`

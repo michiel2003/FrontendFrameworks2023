@@ -9,7 +9,7 @@ import image8 from '../assets/images/fabrizio-conti-avHlZjuJgX0-unsplash.webp'
 import image9 from '../assets/images/fabrizio-conti-BFFgACu5UXI-unsplash.webp'
 import image10 from '../assets/images/fabrizio-conti-c3wsMnxQZDw-unsplash.webp'
 
-const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10]
+export const images = [image1, image2, image3, image4, image5, image6, image7, image8, image9, image10]
 
 const getRandomImage = (): string => {
     const i = Math.floor(Math.random() * 10)

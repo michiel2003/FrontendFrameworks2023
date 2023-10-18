@@ -2,6 +2,7 @@ import styled from 'styled-components'
 
 interface TabButtonProps {
     $isActive: boolean
+    id:number
 }
 
 const TabButton = styled.button<TabButtonProps>`

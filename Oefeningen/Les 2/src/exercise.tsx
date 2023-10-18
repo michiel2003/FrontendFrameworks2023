@@ -1,5 +1,7 @@
 import styled from 'styled-components'
 import {CSSProperties, FunctionComponent, ReactNode} from 'react'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faChevronDown, faChevronUp} from "@fortawesome/free-solid-svg-icons";
 
 const TitleDiv = styled.div`
   font-family: "Lucida Sans", Monaco, monospace;
@@ -27,9 +29,13 @@ interface ExerciseProps {
     background?: string
     title: string
     children: ReactNode
+    isExpanded?: boolean
 }
 
-const Exercise: FunctionComponent<ExerciseProps> = ({background, title, children}) => {
+const openBtn = <FontAwesomeIcon icon={faChevronUp}/>
+const closedBtn = <FontAwesomeIcon icon={faChevronDown}/>
+
+const Exercise: FunctionComponent<ExerciseProps> = ({background, title, children, isExpanded}) => {
     const style: CSSProperties = {
         boxShadow: '7px 2px 8px 1px rgba(18,89,46,0.67)',
         background: background ?? '#EEEEEE',
@@ -39,10 +45,20 @@ const Exercise: FunctionComponent<ExerciseProps> = ({background, title, children
     }
 
     return (
-        <div style={style}>
-            <ExerciseTitle title={title}/>
-            {children}
-        </div>
+        <>
+            {isExpanded ?
+                <div style={style}>
+                    {openBtn}
+                    <ExerciseTitle title={title}/>
+                    {children}
+                </div>
+                :
+                <div style={style}>
+                    {closedBtn}
+                    <ExerciseTitle title={title}/>
+                </div>
+            }
+        </>
     )
 }
 

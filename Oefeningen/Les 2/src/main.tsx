@@ -10,6 +10,13 @@ import ExerciseFive from './exerciseFive/exerciseFive.tsx'
 import './assets/main.css'
 import ExerciseSix from "./exerciseSix/exerciseSix.tsx";
 import ExerciseSeven from "./exerciseSeven/exerciseSeven.tsx";
+import {ExerciseEight} from "./exerciseEight/ExerciseEight.tsx";
+import {ExerciseNine} from "./exerciseNine/ExerciseNine.tsx";
+
+
+
+
+
 
 const root = ReactDOM.createRoot(
     document.getElementById('root') as HTMLElement,
@@ -17,7 +24,7 @@ const root = ReactDOM.createRoot(
 
 root.render(
     <StrictMode>
-        <Exercise title={'Exercise 1: Multiplication Table'}>
+        <Exercise isExpanded={true} title={'Exercise 1: Multiplication Table'}>
             <ExerciseOne/>
         </Exercise>
         <Exercise title={'Exercise 2: Rater'} background={'#77EEEE'}>
@@ -35,8 +42,14 @@ root.render(
         <Exercise title={'Exercise 6: Calculator'}>
             <ExerciseSix/>
         </Exercise>
-        <Exercise title={'BMI Calculator'}>
+        <Exercise title={'Exercise 7: BMI Calculator'}>
             <ExerciseSeven/>
+        </Exercise>
+        <Exercise title={'Exercise 8: Carrousel'}>
+            <ExerciseEight/>
+        </Exercise>
+        <Exercise title={'Exercise 9: Tabs'}>
+            <ExerciseNine/>
         </Exercise>
     </StrictMode>,
 )
